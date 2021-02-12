@@ -19,7 +19,7 @@ public class UserController {
 	
 	@Autowired UserService userService;
 
-	@Value("${eureka.instance.instance-id}") 
+	@Value("${eureka.instance.instance-eureka.instance.instance-id}") 
 	private String port;
 	
 	
